@@ -8,6 +8,8 @@ Ref : https://en.wikipedia.org/wiki/Power_transform#Box%E2%80%93Cox_transformati
 
 ### 2. CLT for Chi-Square-Distribution
 Produce a plot for a sample drawn the from chi-square distribution with degrees of freedom equal to 3, for samples drawn once, 5 times, and 10 times and verify the Central Limit Theorem
+Ref : AstroML book fig 3.20
+
 
 
 
