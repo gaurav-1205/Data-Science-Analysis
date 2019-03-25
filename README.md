@@ -21,3 +21,5 @@ deviation of the median.
 Use Chi-square minimization to obtain best fit values for b and m for exercise 1 on page 5 in arxiv:1008.4686
 
 
+### 5. Frequentist analysis
+Download the data corresponding to x, y, and σy from http://www.iith.ac.in/~shantanud/testdata.dat. Find the best-fit values after fitting the data to linear, quadratic, and cubic polynomials. Find out which model fits the data best from frequentist model comparison as well as using AIC and BIC. For frequentist model comparison, using the linear model as the null hypothesis, find out the p value corresponding to the preferred model. Also show a plot overlaying the data with best fit solutions from linear, quadratic and cubic functions with different line styles for each of the fits.
