@@ -43,7 +43,7 @@ Ref : http://jakevdp.github.io/blog/2014/06/06/frequentism-and-bayesianism-2-whe
 
 
 ### 10. Metropolis-Hastings MCMC algorithm
-write a very simple M-H MCMC sampler. Sample in a single parameter x and give the sampler as its density function p(x) a Gaussian density with mean 2 and variance 2. Give the sampler a proposal distribution q(x0 | x) a Gaussian pdf for x0 with mean x and variance 1. Initialize the sampler with x = 0 and run the sampler for more than 104 steps. Plot the results as a histogram, with the true density over-plotted sensibly. 
+write a very simple M-H MCMC sampler. Sample in a single parameter x and give the sampler as its density function p(x) a Gaussian density with mean 2 and variance 2. Give the sampler a proposal distribution q(x0 | x) a Gaussian pdf for x0 with mean x and variance 1. Initialize the sampler with x = 0 and run the sampler for more than 104 steps. Plot the results as a histogram, with the true density over-plotted sensibly
 Ref : arXiv:1710.06068
 
 
