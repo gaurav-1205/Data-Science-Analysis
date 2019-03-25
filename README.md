@@ -31,3 +31,26 @@ Download the asteroid dataset from http://astrostatistics.psu.edu/datasets/aster
 
 ### 7. 2 Sample T-test
 Download the Hipparcos star catalog from http://astrostatistics.psu.edu/datasets/HIP_star.dat. Detailed explanation of the columns in this dataset can be found in http://astrostatistics.psu.edu/datasets/HIP_star.html under “Dataset”. Calculate using two-sample t-test whether the color of the Hyades stars differs from the non-Hyades ones. The Hyades stars have Right Ascension between 50◦ and 100◦ , declinations between 0 and 25◦ , proper motion in RA between 90 and 130 mas/year, proper motion in DEC between -60 and -10 mas/year, measurement parallax error less than 5 mas, and color of star less than 0.2 mag. Any other star which does not satisfy any of the above conditions is considered a non-Hyades star.
+
+
+### 8. MCMC
+For exercise 1 in arXiv:1008.4686, calculate the 68% and 95% joint confidence intervals on b and m.
+
+
+### 9. Detecting Outliers using Bayesian analysis
+Fit the data in Table 1 of arXiv:1008.4686 to a straight line, after including all the data points, (after ignoring σx and ρxy ) using both maximum likelihood analysis and using a Bayesian analysis to identify the outliers, using the same procedure as in the second of Jake VanDerPlas blog article. Show graphically the best fit line using both maximum likelihood analysis and also using Bayesian analysis, including the outlier points.
+Ref : http://jakevdp.github.io/blog/2014/06/06/frequentism-and-bayesianism-2-when-results-differ/
+
+
+### 10. Metropolis-Hastings MCMC algorithm
+write a very simple M-H MCMC sampler. Sample in a single parameter x and give the sampler as its density function p(x) a Gaussian density with mean 2 and variance 2. Give the sampler a proposal distribution q(x0 | x) a Gaussian pdf for x0 with mean x and variance 1. Initialize the sampler with x = 0 and run the sampler for more than 104 steps. Plot the results as a histogram, with the true density over-plotted sensibly. 
+Ref : arXiv:1710.06068
+
+
+### 11. Using Kernel Density Estimation (KDE)
+Download the SDSS quasar dataset from http://astrostatistics.psu.edu/datasets/SDSS_quasar.dat. Plot the KDE estimate of the quasar redshift distribution (the column with the title z) using a Gaussian and also an exponential kernel (with bandwidth=0.2) from -0.5 to 5.5.
+
+
+### 12. Angular two-point correlation
+Calculate the angular two-point correlation function of galaxies (including errors obtained by 10 bootstrap resamples) using subset of data from the Blanco Cosmology Survey in the 5 hour field with r-band magnitude between 17 and 20, and using 16 logarithmic-spaced angular bins from 1/60◦ to 1◦ . Use a linear scale for Y-axis. Galaxies in Blanco Cosmology Survey have spread model > 0.002. This data can be downloaded from http://www.iith.ac.in/~shantanud/BCS05hr_reduced.txt 
+Ref : AstroML book fig 6.17
